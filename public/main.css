@@ -1,0 +1,274 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Main CSS*/
+
+html {
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.splashScreen {
+    color: rgb(35, 151, 136);
+    height: 100vh;
+}
+
+.garbage {
+    height: 200vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.aboutTitle {
+    padding-top: 3%;
+    color: #00182c;
+    padding-bottom: 2.5%;
+}
+
+.about {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00182c;
+}
+
+.splashInfo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    z-index: 5;
+}
+
+.splashInfo > h1 {
+    font-size: 2em;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.splashInfo > p {
+    color: #1483b1;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.skills {
+    height: 120px;
+    background-color: white;
+}
+
+.formatForCenter {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutSection {
+    background: rgb(240, 240, 240);
+    height: 300vh;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #00223d;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
+    z-index: 5;
+}
+
+.navigation > ul {
+    width: 100%;
+    list-style: none;
+}
+
+.navLi {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 33.1%;
+    margin-top: 20px;
+    color: white;
+    font-size: 2em;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+
+.navLi:hover {
+    color: #1483b1;
+}
+
+.projTitle {
+    padding-top: 4%;
+    font-family: 'Roboto';
+    font-size: 5em;
+    font-weight: bold;
+    color: #00223d;
+    border-bottom: solid 2px grey;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indenta {
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.indentb {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.icon {
+    color: white;
+    font-size: 1.5em;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.icon:hover {
+    color: #1483b1;
+}
+
+#particles-js {
+    height: 100%;
+    background-color: #000b14;
+}
+
+.skillIcons {
+    position: relative;
+    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4em;
+    text-align: center;
+    color: grey;
+}
+
+.proj1Title {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.proj1desk {
+    position: relative;
+    top: -70px;
+    width: 550px;
+    height: 250px;
+}
+
+.proj1Desc {
+    margin-bottom: 20px;
+}
+
+.proj1Skills {
+    color: silver;
+    margin-bottom: 20px;
+}
+
+.proj1link {
+    margin-top: 10px;
+}
+
+.skillIcons > .hackyShift {
+    margin-right: 100px;
+}
+
+.proj1 {
+    margin-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    height: 400px;
+    background-color: #006b99;
+    -webkit-box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
+    border-radius: .5em;
+}
+
+.silver {
+    color: white;
+}
+
+.proj1info {
+    display: inline-block;
+    width: 37.5%;
+    text-align: left;
+}
+
+.proj1iphone {
+    position: relative;
+    top: -180px;
+    right: 75px;
+    float: right;
+    width: 125px;
+    height: 225px;
+}
