@@ -1,6 +1,6 @@
 'use strict';
 var simpleStatic = require('node-static');
-var file = new simpleStatic.Server();
+var file = new simpleStatic.Server('./public');
 
 require('http').createServer(function(request, response) {
   request.addListener('end', function() {
