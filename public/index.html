@@ -33,34 +33,60 @@
                 <i class="fab fa-java"></i>
             </div>
         </div>
-        <div class="container">
-        <h2 class="projTitle">Projects</h2>
-        <ul class="projects">
-            <li class="proj1">
-                <div class="proj1info">
-                <h3 class="proj1Title">Skatespot Finder</h3>
-                <p class="proj1Desc">Skatespot Finder allows skateboarders to find or add their favorite places to skateboard. I created the app because I wanted a place to keep all my current and prospective spots.</p>
-                <p class="proj1Skills">Skills: MERN React-Google-Maps</p>
-                <a class="silver" href="https://infallible-goodall-e2cc46.netlify.com/">Live App</a>
-                <p class="proj1link"><a class="silver" href="https://github.com/Jacob-Zim/skatespots-client">client</a> and <a class="silver" href="https://github.com/Jacob-Zim/skatespots-server">server</a> repos</p>
-                </div>
-                <img class="proj1desk" src="../images/proj1desk.PNG"/>
-                <img class="proj1iphone" src="../images/proj1iphone.PNG"/>
-            </li>
-            <li class="proj2"></li>
-            <li class="proj3"></li>
-            <li class="proj4"></li>
-        </ul>
+        <div class="container" id="about">
+            <h2 class="aboutTitle">About me</h2>
+            <img class="myImage" src="../images/IMG_2763.JPG" alt="me" />
+            <p class="about">I'm a full stack developer living in Seattle. When I'm not coding away indoors, you'll find me enjoying the great hikes Washington has to offer.</p>
+            <p class="about">I have always had an interest in STEM and I strive to leverage it to improve the quality of our everyday lives. I chose specifically to get into software as it is the best platform to transpile ideas into reality. Plus I'm a bit of a math geek and software lets me use and vizualize all the formulas I know and love!</p>
         </div>
     </section>
-    <section>
-        <h2 class="aboutTitle">About me</h2>
-        <p class="about">I love problem solving and creating applications which help people.</p>
+    <div class="anchorPosProj" id="projects"></div>
+    <h2 class="projTitle">Projects</h2>
+    <div class="projContainer">
+        <div class="projects">
+            <div class="proj">
+                <h3 class="proj1Title">Skatespot Finder</h3>
+                <p class="proj1Desc">Skatespot Finder allows skateboarders to find and add their favorite places to skateboard. I created the app because I wanted a place to keep all my current and prospective skateboarding spots.</p>
+                <p class="proj1Skills">MongoDB | Express | React | Node | JWT | React-Google-Maps</p>
+                <img class="proj1platform" src="../images/proj1deskiphoneCropped.png" alt="Skatespot Finder"/>
+                <a class="silver" href="https://infallible-goodall-e2cc46.netlify.com/">Live App</a>
+                <p class="proj1link"><a class="silver" href="https://github.com/Jacob-Zim/skatespots-client">client</a> and <a class="silver" href="https://github.com/Jacob-Zim/skatespots-server">server</a> repos</p>
+            </div>
+            <div class="proj topmargin botPadding">
+                <h3 class="proj1Title">Staccato</h3>
+                <p class="proj1Desc">Staccato lets users learn and memorize music theory concepts using a spaced repetition algorithm. The reason behind making this app was that learning music theory is hard and requires a lot of memorization at first, so my partner and I created this to help new learners with some of the basics.<br>
+                    <br> I worked on the actions and store on the frontend as well as authentication and routes on the backend along with creating the algorithm.</p>
+                <p class="proj1Skills">MongoDB | Express | React | Node | JWT</p>
+                <img class="proj2platform" src="../images/StaccatoCropped.png" alt="Staccato"/>
+                <a class="silver" href="https://staccato-music-theory.netlify.com/">Live App</a>
+                <p class="proj2link"><a class="silver" href="https://github.com/midimurphdesigns/staccato-client">client</a> and <a class="silver" href="https://github.com/Jacob-Zim/spaced-repetition-server">server</a> repos</p>
+            </div>
+            <div class="proj topmargin botPadding">
+                <h3 class="proj1Title">Skatespot Finder</h3>
+                <p class="proj1Desc">Skatespot Finder allows skateboarders to find and add their favorite places to skateboard. I created the app because I wanted a place to keep all my current and prospective skateboarding spots.</p>
+                <p class="proj1Skills">MongoDB | Express | React | Node | JWT | React-Google-Maps</p>
+                <img class="proj1platform" src="../images/proj1deskiphoneCropped.png" alt="Skatespot Finder"/>
+                <a class="silver" href="https://infallible-goodall-e2cc46.netlify.com/">Live App</a>
+                <p class="proj1link"><a class="silver" href="https://github.com/Jacob-Zim/skatespots-client">client</a> and <a class="silver" href="https://github.com/Jacob-Zim/skatespots-server">server</a> repos</p>
+            </div>
+            <div class="proj topmargin botPadding">
+                <h3 class="proj1Title">Staccato</h3>
+                <p class="proj1Desc">Staccato lets users learn and memorize music theory concepts using a spaced repetition algorithm. The reason behind making this app was that learning music theory is hard and requires a lot of memorization at first, so my partner and I created this to help new learners with some of the basics. I worked on the actions and store on the frontend as well as authentication and routes on the backend along with creating the algorithm.</p>
+                <p class="proj1Skills">MongoDB | Express | React | Node | JWT</p>
+                <img class="proj2platform" src="../images/StaccatoCropped.png" alt="Staccato"/>
+                <a class="silver" href="https://staccato-music-theory.netlify.com/">Live App</a>
+                <p class="proj2link"><a class="silver" href="https://github.com/midimurphdesigns/staccato-client">client</a> and <a class="silver" href="https://github.com/Jacob-Zim/spaced-repetition-server">server</a> repos</p>
+            </div>
+        </div>
+    </div>
+    <section id="contact" class="contact">
+        <h2 class="projTitle topmargin botPadding">Let's get in touch!</h2>
+        <p class="contactBrief">I have experience creating full stack applications from the ground up, if you're looking for help then I'm your man. <br>
+            <br>Drop me a line at jacobzimmerman80@gmail.com and I will keep in touch!</p>
     </section>
     <footer>
         social media
     </footer>
-    <div class="garbage">GARBAGE</div>
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

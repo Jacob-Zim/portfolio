@@ -26,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background: rgb(240, 240, 240);
 }
 ol, ul {
 	list-style: none;
@@ -55,13 +56,14 @@ html {
     margin: 0 auto;
 }
 
+.projContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .splashScreen {
     color: rgb(35, 151, 136);
     height: 100vh;
-}
-
-.garbage {
-    height: 200vh;
 }
 
 h2 {
@@ -70,17 +72,35 @@ h2 {
 }
 
 .aboutTitle {
-    padding-top: 3%;
-    color: #00182c;
-    padding-bottom: 2.5%;
+    padding-top: 100px;
+    color: #002747;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5em;
+    font-weight: bold;
+    border-bottom: solid 2px grey;
+    padding-bottom: 5px;
 }
 
 .about {
-    text-align: center;
+    text-align: left;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     color: #00182c;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.myImage {
+    display: block;
+    width: 160px;
+    height: 220px;
+    margin: 50px auto;
+    margin-top: 80px;
+    border-radius: 1em;
+    border: #00182c 2px solid;
 }
 
 .splashInfo {
@@ -116,7 +136,7 @@ h2 {
 
 .aboutSection {
     background: rgb(240, 240, 240);
-    height: 300vh;
+    height: 1020px;
 }
 
 .navigation {
@@ -125,7 +145,7 @@ h2 {
     right: 0;
     width: 100%;
     height: 70px;
-    background-color: #00223d;
+    background-color: #000b14;
     padding-bottom: 5px;
     -webkit-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.75);
@@ -138,11 +158,16 @@ h2 {
     list-style: none;
 }
 
-.navLi {
+.anchorPosProj {
+    height: .5px;
+}
+
+.navLink {
+    text-decoration: none;
     position: relative;
     display: inline-block;
     text-align: center;
-    width: 33.1%;
+    width: 32.7%;
     margin-top: 20px;
     color: white;
     font-size: 2em;
@@ -153,7 +178,7 @@ h2 {
     transition:.3s;
 }
 
-.navLi:hover {
+.navLink:hover {
     color: #1483b1;
 }
 
@@ -162,11 +187,13 @@ h2 {
     font-family: 'Roboto';
     font-size: 5em;
     font-weight: bold;
-    color: #00223d;
+    color: #002747;
     border-bottom: solid 2px grey;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .indenta {
@@ -215,25 +242,27 @@ h2 {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 30px;
-}
-
-.proj1desk {
-    position: relative;
-    top: -70px;
-    width: 550px;
-    height: 250px;
+    text-align: center;
 }
 
 .proj1Desc {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
 }
 
 .proj1Skills {
     color: silver;
     margin-bottom: 20px;
+    font-size: 1.5em;
 }
 
 .proj1link {
+    margin-top: 10px;
+}
+
+.proj2link {
     margin-top: 10px;
 }
 
@@ -241,34 +270,82 @@ h2 {
     margin-right: 100px;
 }
 
-.proj1 {
+.proj {
+    display: inline-block;
+    text-align: center;
     margin-top: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 800px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 60px;
-    height: 400px;
-    background-color: #006b99;
+    height: 900px;
+    background-color: #01618a;
     -webkit-box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 13px 5px rgba(0,0,0,0.75);
-    border-radius: .5em;
+    border: solid #00223d 1px;
 }
 
 .silver {
     color: white;
+    text-decoration: none;
 }
 
-.proj1info {
-    display: inline-block;
-    width: 37.5%;
-    text-align: left;
-}
-
-.proj1iphone {
-    position: relative;
-    top: -180px;
-    right: 75px;
+.proj2info {
     float: right;
-    width: 125px;
-    height: 225px;
+    width: 37.5%;
+    text-align: right;
+}
+
+.topmargin {
+    margin-top: -700px;
+}
+
+.proj1platform {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 440px;
+}
+
+.botPadding {
+    padding-bottom: 30px;
+}
+
+.proj2platform {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contactBrief {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600) {
+
+}
+
+@media only screen and (max-width: 1200) {
+
+}
+
+@media only screen and (max-width: 2800) {
+    
 }
